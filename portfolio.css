@@ -1,0 +1,87 @@
+* {
+  /*background-color: #f0f0f0;*/
+  margin: auto;
+  border: none;
+  color: yellow;
+}
+
+#menu {
+  /*border-style: solid;*/
+  float: right;
+  position: fixed;
+  /*position: right;*/
+  font-size: 1em;
+  display: inline;
+  right: 10px;
+}
+
+#menu li {
+  display: inline;
+}
+
+a {
+  color: white;
+}
+
+img {
+  /*border: none;*/
+  /*border-style: solid;*/
+}
+
+h1 {
+  /*border-style: solid;*/
+}
+
+#header, #container, #footer {
+  background-image: url("biscayne_bay.jpg");
+}
+
+#header {
+  background-size: cover;
+  border-color: yellow;
+  border-style: solid;
+  color: black;
+  font-size: 1.8em;
+  font-type: courier;
+  text-align: center;
+  margin: 0 0em 0 0em;
+}
+
+#container {
+  /*border-style: solid;*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 5em;
+  text-indent: 2em;
+  color: yellow;
+}
+
+p {
+  /*border-style: solid;*/
+  margin: 0.75em 20em 0 20em;
+  opacity: 1.0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#footer {
+  border-style: solid;
+  background-size: cover;
+  background-position: bottom;
+  /*margin: 0 15em 0 15em;*/
+  text-align: center;
+}
+
+
+#footer img {
+  height: 5em;
+  width: 5em;
+}
+
+.logos li {
+  display: inline;
+}
