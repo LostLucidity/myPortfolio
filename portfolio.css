@@ -33,7 +33,7 @@ h1 {
 }
 
 #header, #container, #footer {
-  background-image: url("/biscayne_bay.jpg");
+  background-image: url("biscayne_bay.jpg");
 }
 
 #header {
