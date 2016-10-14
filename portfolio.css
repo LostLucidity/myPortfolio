@@ -1,15 +1,8 @@
-* {
-  /*background-color: #f0f0f0;*/
-  margin: auto;
-  border: none;
-  color: yellow;
-}
+
 
 #menu {
-  /*border-style: solid;*/
   float: right;
   position: fixed;
-  /*position: right;*/
   font-size: 1em;
   display: inline;
   right: 10px;
@@ -23,15 +16,6 @@ a {
   color: white;
 }
 
-img {
-  /*border: none;*/
-  /*border-style: solid;*/
-}
-
-h1 {
-  /*border-style: solid;*/
-}
-
 #header, #container, #footer {
   background-image: url("biscayne_bay.jpg");
 }
@@ -42,13 +26,12 @@ h1 {
   border-style: solid;
   color: black;
   font-size: 1.8em;
-  font-type: courier;
+  font-family: courier;
   text-align: center;
   margin: 0 0em 0 0em;
 }
 
 #container {
-  /*border-style: solid;*/
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -58,8 +41,6 @@ h1 {
 }
 
 p {
-  /*border-style: solid;*/
-  /*margin: 0.75em 20em 0 20em;*/
   opacity: 1.0;
 }
 
@@ -72,8 +53,8 @@ ul {
   border-style: solid;
   background-size: cover;
   background-position: bottom;
-  /*margin: 0 15em 0 15em;*/
   text-align: center;
+  color: yellow;
 }
 
 
@@ -82,6 +63,14 @@ ul {
   width: 5em;
 }
 
+td, th {
+  border-right: solid;
+}
+
 .logos li {
   display: inline;
+}
+
+#skills {
+  text-align: center;
 }
