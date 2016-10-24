@@ -16,7 +16,7 @@ body {
   display: inline;
 }
 
-a {
+#menu a {
   color: #B22F12;
 }
 
@@ -26,10 +26,10 @@ a {
 
 #header {
   background-size: cover;
-  border-color: #9EFF00;
+  border-color: #A7FF19;
   border-style: solid;
+  color: #003BCC;
   margin: 0 0em 0 0em;
-  color: black;
   font-size: 1.8em;
   font-family: courier;
   text-align: center;
@@ -45,7 +45,7 @@ a {
   background-size: cover;
   padding: 0 0 1em 0;
   /*text-indent: 2em;*/
-  color: #9EFF00;
+  color: #A7FF19;
   text-align: center;
 }
 
@@ -76,13 +76,17 @@ ul {
   background-size: cover;
   background-position: bottom;
   text-align: center;
-  color: #9EFF00;
+  color: #A7FF19;
 }
 
 
 #footer img {
   height: 5em;
   width: 5em;
+}
+
+#projects a {
+  color: #FF2E00;
 }
 
 td, th {
@@ -100,7 +104,7 @@ td, th {
 .button {
   height: 33px;
   width: 120px;
-  background-color: #9EFF00;
+  background-color: #A7FF19;
   border-color: orange;
   border-style: dashed;
   border-width: 2px;
