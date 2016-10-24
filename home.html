@@ -1,44 +1,61 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <link rel="stylesheet" type="text/css" href="portfolio.css"/>
     <meta charset="utf-8" />
     <title>Daniel Muñoz' Profile</title>
   </head>
   <body>
+    <script src="jquery.js"></script>
+    <script src="portfolio.js"></script>
+
     <div id="header">
       <ul id="menu">
         <li><a href="#Home">Home</a></li>
         <li><a href="#Bio">Bio</a></li>
+        <li><a href="#TechTimeline">Tech Timeline</a></li>
         <li><a href="#Links">Links</a></li>
         <li><a href="#Contact">Contact</a></li>
         <li><a href="#Projects">Projects</a></li>
-        <li><a href="#TechTimeline">Tech Timeline</a></li>
       </ul>
       <a name="Home"></a>
       <img src="https://pbs.twimg.com/profile_images/654434582536847360/mMCPOyLp_400x400.jpg" alt="Profile pic" />
       <h1><strong>Daniel Muñoz</strong></h1>
     </div>
+
     <div id="container">
       <a name="Bio"></a>
-      <p>
-        I am Daniel Muñoz and this is my professional profile for my programming career. I've recently completed <span><a href="http://wyncode.co/web-immersive/">Wyncode's 9 week Web Development course</a></span> where we learned Ruby, HTML/CSS, Javacript
-        and Ruby on Rails to ultimately build a functioning <span><a href="http://teammake.herokuapp.com/">web application.</a></span></p>
-      <p>
-        I come from a biological sciences background and want to take advantage of Miami's budding tech scene.</p>
-      <p>
-        I will be looking to continue honing my skills in what I have learned and looking into data analysis type work in the future. This includes personal interests in biological research and city government.
-      </p>
+      <h1 class="title">Bio</h1>
+      <br/>
+      <div class="text">
+        Programmer in Miami. Former biological researcher at the University
+        of Miami in which I worked in for 9 years. I have a Bachelor and
+        Master of Science degrees in Biochemistry and Molecular Biology.
+        <br/>
+        I attended a bootcamp at Wynwood Academy from October through
+        November 2015 working with Ruby on Rails framework to construct a
+        webapp. Worked at a startup for 6 months working with
+        Angular 2/Ionic 2 framework to build a hybrid web app for both
+        Android and the iOS. Currently diving deep into JavaScript for web
+        development skills and beyond.
+        <br/>
+        <img
+        src="https://s.graphiq.com/sites/default/files/728/media/images/University_of_Miami_Leonard_M._Miller_School_of_Medicine_404460.jpg" width="200px" height="200px"
+        />
+        <img
+          src="https://pbs.twimg.com/profile_images/622054713073246208/5y-nq6IM.jpg" width="200px" height="200px"
+        />
+      </div>
     </div>
     <div id="footer">
 
       <div id="skills">
         <a name="TechTimeline"></a>
-        Tech Timeline
+        <h1 class="title">Tech Timeline</h1>
         <table style="margin: auto; border-collapse: collapse">
           <thead>
             <tr>
-              <th colspan="3" style="border-right: none;">Skills</th>
+              <th colspan="3" style="border-right: none; font-size: 18px">Skills</th>
             </tr>
             <tr style="border-bottom: solid yellow;">
               <th><em>Year</em></th>
@@ -49,39 +66,80 @@
           <tbody>
             <tr>
               <td>2016</td>
-              <td>Javascript/Typescript</td>
-              <td>Angular2/Ionic 2</td>
+              <td>Javascript/Typescript
+              <br/>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2000px-Unofficial_JavaScript_logo_2.svg.png">
+              <img src="https://cloud.githubusercontent.com/assets/10656223/15247118/e71dc6a2-1909-11e6-9b90-ae86204f41c3.png">
+            </td>
+              <td>Angular2/Ionic 2
+                <br/>
+                <img src="https://angular.io/resources/images/logos/angular2/angular.svg">
+                <img src="http://ionic.io/img/2.png">
+              </td>
             </tr>
           </tbody>
         </table>
       </div>
 
       <a name="Links"></a>
-      Links
+      <h1 class="title">Links</h1>
       <ul class="logos">
         <li>
-          <a href="https://twitter.com/Lost_Lucidity"><img src="Twitter_Logo_White_On_Blue.png" alt="My Twitter Link"></a>
+          <a href="https://twitter.com/Lost_Lucidity" target="_blank" alt="Twitter Logo"><img src="Twitter_Logo_White_On_Blue.png" alt="My Twitter Link"></a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/danielmunoz2"><img src="https://pbs.twimg.com/profile_images/614583061448036352/CBpFkPaz.png" alt="My Linkedin"></a>
+          <a href="https://www.linkedin.com/in/danielmunoz2" target="_blank" alt="LinkedIn Logo"><img src="https://pbs.twimg.com/profile_images/614583061448036352/CBpFkPaz.png" alt="My Linkedin"></a>
         </li>
         <li>
-          <a href="https://github.com/LostLucidity"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" alt="My Github"></a>
+          <a href="https://github.com/LostLucidity" target="_blank" alt="Github Logo"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" alt="My Github"></a>
         </li>
       </ul>
-      <br>
+      <br/>
       <div id="Contact">
         <a name="Contact"></a>
-        Contact
+        <h1 class="title">Contact</h1>
         <ul>E-mail: daniel.munoz.2@gmail.com</ul>
       </div>
-      <br>
-      <div>
+      <br/>
+      <div id="projects">
         <a name="Projects"></a>
-        Projects
-        <ul><a href="https://github.com/LostLucidity/dogfight" alt="Dogfight!">Dogfight!</a></ul>
-        <ul><a href="https://github.com/LostLucidity/wyn_stack" alt="Wynstack">WynStack</a></ul>
-        <ul><a href="https://github.com/LostLucidity/team_make" alt="Teammake">Teammake</a></ul>
+        <h1 class="title">Projects</h1>
+        <ul>
+          <li>
+            <a href="https://github.com/LostLucidity/dogfight" target="_blank">Dogfight!</a>
+          </li>
+          <li>
+            <a href="https://github.com/LostLucidity/wyn_stack" target="_blank">WynStack</a>
+          </li>
+          <li>
+            <a href="https://github.com/LostLucidity/team_make" target="_blank">Teammake</a>
+          </li>
+        </ul>
+
+      </div>
+
+      <div class="button">
+        <a href="www.spacex.com">SpaceX</a>
+      </div>
+
+      <div id="jQuery">
+        <h1 class="title">Secret jQuery Section</h1>
+        <div class="form">
+          <ul id="commentList"></ul>
+          <input type="text" value="" id="comment"/>
+          <br/>
+          <button class="button" onClick="postText()">Post</button>
+        </div>
+      </div>
+
+      <div id="topLists">
+        <p>Tallest Buildings in Miami</p>
+        <ol>
+          <li>Four Seasons Hotel Miami</li>
+          <li>Southeast Financial Center</li>
+          <li>Marquis, 679ft(207m)</li>
+        </ol>
+        <!-- Super Computers, Solar Plants, Fusion Reactors -->
       </div>
     </div>
   </body>
